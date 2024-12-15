@@ -14,7 +14,7 @@ const Hero = () => {
       setCurrentIndex((prev) =>
         prev === carouselItems.length - 1 ? 0 : prev + 1
       );
-    }, 4500);
+    }, 4000);
 
     return () => clearInterval(intervalId);
   }, []);

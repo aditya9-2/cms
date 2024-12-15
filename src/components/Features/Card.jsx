@@ -1,4 +1,4 @@
-import PrimaryBtn from "../buttons/primaryBtn";
+import PrimaryBtn from "../buttons/PrimaryBtn";
 
 const Card = ({ cardImage, title, price }) => {
   const handlesShowCourseDetails = () => {};
