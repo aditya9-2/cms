@@ -7,8 +7,8 @@ function App() {
   const routes = (
     <Router>
       <Routes>
-        <Route path="/user/registration" exact element={<Registration />} />
-        <Route path="/user/login" exact element={<Login />} />
+        <Route path="/registration" exact element={<Registration />} />
+        <Route path="/login" exact element={<Login />} />
         <Route path="/" exact element={<Home />} />
       </Routes>
     </Router>
