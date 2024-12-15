@@ -1,5 +1,5 @@
 import { useSetRecoilState } from "recoil";
-import PrimaryBtn from "./buttons/primaryBtn";
+import PrimaryBtn from "./buttons/PrimaryBtn";
 import InputBox from "./InputBox/InputBox";
 import { IoMenuSharp } from "react-icons/io5";
 import { sidebarState } from "../store/menuAtom";

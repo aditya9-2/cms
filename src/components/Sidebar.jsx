@@ -1,6 +1,6 @@
 import { LuHome } from "react-icons/lu";
 import { RiGraduationCapFill } from "react-icons/ri";
-import PrimaryBtn from "./buttons/primaryBtn";
+import PrimaryBtn from "./buttons/PrimaryBtn";
 import { useRecoilValue } from "recoil";
 import { sidebarState } from "../store/menuAtom";
 import { useState } from "react";
